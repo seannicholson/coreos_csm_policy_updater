@@ -26,9 +26,9 @@ Alpha, Beta, or Stable. If this section of the checks is not configured, the
 script will not find a match to update the policy.
 
 Checks should be formatted like this example
-{code}
-{
-object_type: "configuration_file_setting",
+
+
+>object_type: "configuration_file_setting",
 active: true,
 exportable: true,
 suggestion: "Alpha",
@@ -38,5 +38,3 @@ config_item: "VERSION",
 desired_value: "1325.1.0",
 comment_character: "#",
 delimiter: "="
-}
-{code}
