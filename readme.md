@@ -5,15 +5,15 @@ NOT A SUPPORTED SOLUTION
 
 To configure script add API Key information and CSM Policy ID to cloudpassage.yml File
 >key_id: your_api_key_id
->secret_key: your_api_secret_key
->csm_policy_id: your_csm_policy_id
+secret_key: your_api_secret_key
+csm_policy_id: your_csm_policy_id
 
 
 This script queries the CoreOS version endpoints to retrieve the current versions
 for each release of CoreOS (Alpha, Beta, Stable)
 >https://coreos.com/dist/aws/aws-alpha.json
->https://coreos.com/dist/aws/aws-beta.json
->https://coreos.com/dist/aws/aws-stable.json
+https://coreos.com/dist/aws/aws-beta.json
+https://coreos.com/dist/aws/aws-stable.json
 
 
 In order for this scrip to work, your Halo CSM policy must contain three
