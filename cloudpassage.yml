@@ -1,0 +1,6 @@
+defaults:
+    key_id: ''
+    secret_key: ''
+    api_hostname: "api.cloudpassage.com"
+    api_port: 443
+    csm_policy_id: ''
